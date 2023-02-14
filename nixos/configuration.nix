@@ -78,6 +78,7 @@
   # Set your time zone.
   time.timeZone = "America/Sao_Paulo";
 
+  security.protectKernelImage = true;
   security.pam.services.swaylock = {};
 
   security.rtkit.enable = true;
